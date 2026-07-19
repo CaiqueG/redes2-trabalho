@@ -57,7 +57,19 @@
 <!-- DIVISOR: area da sala | area da legenda -->
 <line x1="840" y1="10" x2="840" y2="850" stroke="#DDD" stroke-width="1.5" stroke-dasharray="6,4"/>
 
-<!-- Reservado para legenda (lado direito) -->
-<text x="1120" y="434" text-anchor="middle" font-size="13" fill="#BBB" font-style="italic">(legenda)</text>
+<!-- ============================================ -->
+<!-- LEGENDA                                      -->
+<!-- ============================================ -->
+<!-- Caixa da legenda -->
+<rect x="860" y="70" width="510" height="720" fill="#F9F9F9" stroke="#CCC" stroke-width="1.2" rx="6"/>
+<!-- Cabeçalho -->
+<rect x="860" y="70" width="510" height="36" fill="#1A237E" rx="6"/>
+<rect x="860" y="88" width="510" height="18" fill="#1A237E"/>
+<text x="1115" y="94" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Legenda</text>
+
+<!-- ENTRADA 1: Canaleta PVC perimetral -->
+<line x1="880" y1="133" x2="940" y2="133" stroke="#E53935" stroke-width="2.5" stroke-dasharray="10,6"/>
+<text x="952" y="129" font-size="12" fill="#1A1A1A" font-weight="bold">Canaleta PVC perimetral</text>
+<text x="952" y="145" font-size="10" fill="#666">Eletrocalha/canaleta ao longo das paredes &#xB7; Cat6A U/FTP</text>
 
 </svg>
