@@ -21,6 +21,16 @@
 <line x1="468" y1="790" x2="780" y2="790" stroke="#1A1A2E" stroke-width="12" stroke-linecap="square"/>
 
 <!-- PORTA DUPLA CORREDIÇA -->
+<!-- RACK 19" 24U -->
+<!-- Footprint: 1m profundidade (E-W = 48px) x 0.6m largura (N-S = 29px)  -->
+<!-- Encostado na parede sul (y=784), no 1/4 esquerdo (x=100 a x=148)     -->
+<!-- Frente virada para o oeste: linha branca no lado esquerdo (x=100)     -->
+<rect x="100" y="748" width="48" height="30" fill="#2C3E50" stroke="#1A252F" stroke-width="1.5" rx="3"/>
+<!-- Frente do rack (acesso) — lado oeste -->
+<line x1="100" y1="748" x2="100" y2="778" stroke="#ECF0F1" stroke-width="3.5"/>
+<!-- Seta indicando frente -->
+<polygon points="90,763 100,757 100,769" fill="#ECF0F1" opacity="0.7"/>
+
 <!-- CANALETA PVC PERIMETRAL -->
 <!-- Offset 20px da parede interna (aprox. 40 cm na vida real) -->
 <rect x="82" y="92" width="676" height="676" fill="none" stroke="#E53935" stroke-width="2.5" stroke-dasharray="14,8"/>
@@ -66,6 +76,12 @@
 <rect x="860" y="70" width="510" height="36" fill="#1A237E" rx="6"/>
 <rect x="860" y="88" width="510" height="18" fill="#1A237E"/>
 <text x="1115" y="94" text-anchor="middle" font-size="13" fill="white" font-weight="bold">Legenda</text>
+
+<!-- ENTRADA 0: Rack 19" 24U -->
+<rect x="880" y="112" width="24" height="38" fill="#2C3E50" stroke="#1A252F" stroke-width="1.5" rx="2"/>
+<line x1="880" y1="112" x2="880" y2="150" stroke="#ECF0F1" stroke-width="3"/>
+<text x="916" y="124" font-size="12" fill="#1A1A1A" font-weight="bold">Rack 19&#x22; 24U</text>
+<text x="916" y="139" font-size="10" fill="#666">Linha grossa = frente (acesso) &#xB7; encostado na parede</text>
 
 <!-- ENTRADA 1: Canaleta PVC perimetral -->
 <line x1="880" y1="133" x2="940" y2="133" stroke="#E53935" stroke-width="2.5" stroke-dasharray="10,6"/>
