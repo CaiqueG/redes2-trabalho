@@ -21,6 +21,10 @@
 <line x1="468" y1="790" x2="780" y2="790" stroke="#1A1A2E" stroke-width="12" stroke-linecap="square"/>
 
 <!-- PORTA DUPLA CORREDIÇA -->
+<!-- CANALETA PVC PERIMETRAL -->
+<!-- Offset 20px da parede interna (aprox. 40 cm na vida real) -->
+<rect x="82" y="92" width="676" height="676" fill="none" stroke="#E53935" stroke-width="2.5" stroke-dasharray="14,8"/>
+
 <!-- Guia da porta (trilho) — linha fina no chão entre os painéis -->
 <line x1="322" y1="790" x2="518" y2="790" stroke="#AAA" stroke-width="1"/>
 
