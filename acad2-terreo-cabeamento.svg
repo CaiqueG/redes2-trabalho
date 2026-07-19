@@ -1,0 +1,248 @@
+<svg width="960" height="780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="960" height="780" fill="white"/>
+
+<!-- TITULO -->
+<text x="480" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#003087">Acad&#xEA;mico 2 &#x2014; T&#xE9;rreo: Salas de Aula (P&#xF3;s-Gradua&#xE7;&#xE3;o)</text>
+<text x="480" y="52" text-anchor="middle" font-size="10" fill="#555">Cabeamento Cat6A U/FTP &#xB7; ABNT NBR 14565 &#xB7; Spec: &#x2248; 36 pontos &#xB7; SW 48p 1/2,5 GbE PoE+ + 2 uplinks 10 Gb/s</text>
+
+<!-- BUILDING OUTLINE (70m x 50m = 560x400px @ 8px/m) -->
+<rect x="160" y="68" width="560" height="408" fill="none" stroke="#111" stroke-width="3.5"/>
+
+<!-- TOP SECTION: Banheiro(10m) + A1(15m) + A2(15m) + A3(15m) + LT(15m) = 70m -->
+<rect x="160" y="68" width="560" height="160" fill="#fafafa"/>
+<rect x="160" y="68" width="80"  height="160" fill="#d4d4d4"/>
+<line x1="240" y1="68"  x2="240" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="360" y1="68"  x2="360" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="480" y1="68"  x2="480" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="600" y1="68"  x2="600" y2="228" stroke="#111" stroke-width="2"/>
+
+<!-- Corridor -->
+<line x1="160" y1="228" x2="720" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="160" y1="308" x2="720" y2="308" stroke="#111" stroke-width="2"/>
+<rect x="160" y="228" width="560" height="80" fill="#e8e8e8"/>
+<text x="196" y="272" font-size="9" fill="#999" font-style="italic">corredor principal</text>
+
+<!-- BOTTOM SECTION: wall(10m) + B1(15m) + B2(15m) + estrutura(15m) + Elevator(15m) -->
+<rect x="160" y="308" width="560" height="160" fill="#fafafa"/>
+<rect x="160" y="308" width="80"  height="160" fill="#c8c8c8"/>
+<line x1="240" y1="308" x2="240" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="360" y1="308" x2="360" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="480" y1="308" x2="480" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="600" y1="308" x2="600" y2="468" stroke="#111" stroke-width="2"/>
+<!-- Bottom-right: corridor/circulation (no room) + elevator -->
+<rect x="481" y="309" width="118" height="158" fill="#ededed"/>
+<rect x="601" y="309" width="118" height="158" fill="#ddd" stroke="#888" stroke-width="1.5" stroke-dasharray="9,5"/>
+
+<!-- Local Tecnico highlight -->
+<rect x="601" y="69" width="118" height="158" fill="#fff3e0"/>
+
+<!-- ROOM LABELS -->
+<text x="200" y="148" text-anchor="middle" font-size="9" fill="#555">Banheiro</text>
+
+<text x="300" y="120" text-anchor="middle" font-size="10" font-weight="bold" fill="#1A237E">Sala A1</text>
+<text x="300" y="133" text-anchor="middle" font-size="7.5" fill="#888">15&#xD7;20m</text>
+<text x="420" y="120" text-anchor="middle" font-size="10" font-weight="bold" fill="#1A237E">Sala A2</text>
+<text x="420" y="133" text-anchor="middle" font-size="7.5" fill="#888">15&#xD7;20m</text>
+<text x="540" y="120" text-anchor="middle" font-size="10" font-weight="bold" fill="#1A237E">Sala A3</text>
+<text x="540" y="133" text-anchor="middle" font-size="7.5" fill="#888">15&#xD7;20m</text>
+
+<text x="660" y="140" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#bf360c">Local</text>
+<text x="660" y="153" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#bf360c">T&#xE9;cnico</text>
+
+<text x="300" y="380" text-anchor="middle" font-size="10" font-weight="bold" fill="#1A237E">Sala B1</text>
+<text x="300" y="393" text-anchor="middle" font-size="7.5" fill="#888">15&#xD7;20m</text>
+<text x="420" y="380" text-anchor="middle" font-size="10" font-weight="bold" fill="#1A237E">Sala B2</text>
+<text x="420" y="393" text-anchor="middle" font-size="7.5" fill="#888">15&#xD7;20m</text>
+<text x="540" y="388" text-anchor="middle" font-size="9" fill="#888">Circula&#xE7;&#xE3;o</text>
+<text x="660" y="385" text-anchor="middle" font-size="9" fill="#666">&#xC1;rea do</text>
+<text x="660" y="397" text-anchor="middle" font-size="9" fill="#666">Elevador</text>
+
+<!-- RACK LOCAL TECNICO -->
+<rect x="615" y="78" width="80" height="130" fill="#E65100" stroke="#bf360c" stroke-width="1.5" rx="3"/>
+<text x="655" y="95"  text-anchor="middle" font-size="8.5" fill="white" font-weight="bold">RACK 19" 24U</text>
+<line x1="615" y1="100" x2="695" y2="100" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="113" text-anchor="middle" font-size="7" fill="white">PP Cat6A 48p</text>
+<line x1="615" y1="118" x2="695" y2="118" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="131" text-anchor="middle" font-size="7" fill="white">SW 48p 1/2,5G PoE+</text>
+<line x1="615" y1="136" x2="695" y2="136" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="149" text-anchor="middle" font-size="7" fill="white">DIO OM4 12F</text>
+<line x1="615" y1="154" x2="695" y2="154" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="167" text-anchor="middle" font-size="7" fill="white">No-break UPS</text>
+<line x1="615" y1="172" x2="695" y2="172" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="185" text-anchor="middle" font-size="7" fill="white">Guia de cabos</text>
+<line x1="615" y1="190" x2="695" y2="190" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="655" y="200" text-anchor="middle" font-size="7" fill="white">PDU monitorada</text>
+
+<!-- Fiber uplink -->
+<line x1="695" y1="148" x2="760" y2="148" stroke="#1565C0" stroke-width="2.5"/>
+<polygon points="756,145 764,148 756,151" fill="#1565C0"/>
+<text x="768" y="143" font-size="9"   fill="#1565C0" font-weight="bold">2 &#xD7; 10 Gb/s</text>
+<text x="768" y="154" font-size="8"   fill="#1565C0">OM4 &#x2192; BD Acad2</text>
+<text x="768" y="164" font-size="8"   fill="#1565C0">(backbone vertical)</text>
+
+<!-- ELETROCALHA -->
+<line x1="240" y1="268" x2="612" y2="268" stroke="#cc0000" stroke-width="8" stroke-linecap="square"/>
+<line x1="612" y1="182" x2="612" y2="272" stroke="#cc0000" stroke-width="8" stroke-linecap="square"/>
+<text x="400" y="260" text-anchor="middle" font-size="9" fill="#cc0000" font-weight="bold">Eletrocalha a&#xE7;o galvanizado</text>
+
+<!-- CANALETA DROPS: top salas -->
+<line x1="300" y1="228" x2="300" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="420" y1="228" x2="420" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="540" y1="228" x2="540" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<!-- bottom salas -->
+<line x1="300" y1="268" x2="300" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="420" y1="268" x2="420" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+
+<!-- Canaleta inside salas (left wall) -->
+<line x1="248" y1="80"  x2="248" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="368" y1="80"  x2="368" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="488" y1="80"  x2="488" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="248" y1="308" x2="248" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="368" y1="308" x2="368" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- ===== EQUIPMENT PER SALA ===== -->
+<!-- Each sala shows: faceplate group (blue rect), AP (green circle), camera (gray diamond), phone (orange tiny) -->
+
+<!-- Sala A1 (x=240..360) -->
+<!-- Faceplate label: 6 pontos -->
+<rect x="244" y="200" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="263" y="212" font-size="7.5" fill="#1565C0" font-weight="bold">6p Cat6A</text>
+<!-- Camera (gray triangle) -->
+<polygon points="310,85 322,85 316,95" fill="#607D8B"/>
+<text x="316" y="104" text-anchor="middle" font-size="6" fill="#607D8B">CAM</text>
+<!-- Phone IP -->
+<rect x="330" y="84" width="10" height="10" fill="#FF6F00" rx="1"/>
+<text x="335" y="102" text-anchor="middle" font-size="6" fill="#FF6F00">TEL</text>
+<!-- Projector -->
+<rect x="346" y="83" width="12" height="8" fill="#8D6E63" rx="1"/>
+<text x="352" y="99" text-anchor="middle" font-size="5.5" fill="#8D6E63">PROJ</text>
+<!-- AP A1 -->
+<circle cx="300" cy="175" r="11" fill="#2E7D32"/>
+<path d="M294,173 Q300,167 306,173" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M290,169 Q300,161 310,169" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="300" cy="177" r="2.5" fill="white"/>
+<text x="300" y="196" text-anchor="middle" font-size="7" fill="#2E7D32">Wi-Fi 6</text>
+
+<!-- Sala A2 (x=360..480) -->
+<rect x="364" y="200" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="383" y="212" font-size="7.5" fill="#1565C0" font-weight="bold">6p Cat6A</text>
+<polygon points="430,85 442,85 436,95" fill="#607D8B"/>
+<text x="436" y="104" text-anchor="middle" font-size="6" fill="#607D8B">CAM</text>
+<rect x="450" y="84" width="10" height="10" fill="#FF6F00" rx="1"/>
+<text x="455" y="102" text-anchor="middle" font-size="6" fill="#FF6F00">TEL</text>
+<rect x="464" y="83" width="12" height="8" fill="#8D6E63" rx="1"/>
+<text x="470" y="99" text-anchor="middle" font-size="5.5" fill="#8D6E63">PROJ</text>
+<circle cx="420" cy="175" r="11" fill="#2E7D32"/>
+<path d="M414,173 Q420,167 426,173" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M410,169 Q420,161 430,169" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="420" cy="177" r="2.5" fill="white"/>
+<text x="420" y="196" text-anchor="middle" font-size="7" fill="#2E7D32">Wi-Fi 6</text>
+
+<!-- Sala A3 (x=480..600) -->
+<rect x="484" y="200" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="503" y="212" font-size="7.5" fill="#1565C0" font-weight="bold">6p Cat6A</text>
+<polygon points="550,85 562,85 556,95" fill="#607D8B"/>
+<text x="556" y="104" text-anchor="middle" font-size="6" fill="#607D8B">CAM</text>
+<rect x="570" y="84" width="10" height="10" fill="#FF6F00" rx="1"/>
+<text x="575" y="102" text-anchor="middle" font-size="6" fill="#FF6F00">TEL</text>
+<rect x="582" y="83" width="12" height="8" fill="#8D6E63" rx="1"/>
+<text x="588" y="99" text-anchor="middle" font-size="5.5" fill="#8D6E63">PROJ</text>
+<circle cx="540" cy="175" r="11" fill="#2E7D32"/>
+<path d="M534,173 Q540,167 546,173" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M530,169 Q540,161 550,169" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="540" cy="177" r="2.5" fill="white"/>
+<text x="540" y="196" text-anchor="middle" font-size="7" fill="#2E7D32">Wi-Fi 6</text>
+
+<!-- Sala B1 (x=240..360) -->
+<rect x="244" y="310" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="263" y="322" font-size="7.5" fill="#1565C0" font-weight="bold">6p Cat6A</text>
+<polygon points="310,320 322,320 316,330" fill="#607D8B"/>
+<text x="316" y="339" text-anchor="middle" font-size="6" fill="#607D8B">CAM</text>
+<rect x="330" y="319" width="10" height="10" fill="#FF6F00" rx="1"/>
+<circle cx="300" cy="415" r="11" fill="#2E7D32"/>
+<path d="M294,413 Q300,407 306,413" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M290,409 Q300,401 310,409" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="300" cy="417" r="2.5" fill="white"/>
+<text x="300" y="436" text-anchor="middle" font-size="7" fill="#2E7D32">Wi-Fi 6</text>
+
+<!-- Sala B2 (x=360..480) -->
+<rect x="364" y="310" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="383" y="322" font-size="7.5" fill="#1565C0" font-weight="bold">6p Cat6A</text>
+<polygon points="430,320 442,320 436,330" fill="#607D8B"/>
+<text x="436" y="339" text-anchor="middle" font-size="6" fill="#607D8B">CAM</text>
+<rect x="450" y="319" width="10" height="10" fill="#FF6F00" rx="1"/>
+<circle cx="420" cy="415" r="11" fill="#2E7D32"/>
+<path d="M414,413 Q420,407 426,413" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M410,409 Q420,401 430,409" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="420" cy="417" r="2.5" fill="white"/>
+<text x="420" y="436" text-anchor="middle" font-size="7" fill="#2E7D32">Wi-Fi 6</text>
+
+<!-- DIMENSIONS -->
+<line x1="160" y1="58" x2="720" y2="58" stroke="#555" stroke-width="1"/>
+<line x1="160" y1="55" x2="160" y2="61" stroke="#555" stroke-width="1"/>
+<line x1="720" y1="55" x2="720" y2="61" stroke="#555" stroke-width="1"/>
+<text x="440" y="56" text-anchor="middle" font-size="11" fill="#333" font-style="italic">70 m</text>
+<text x="200" y="66" text-anchor="middle" font-size="7.5" fill="#666">10</text>
+<text x="300" y="66" text-anchor="middle" font-size="7.5" fill="#666">15</text>
+<text x="420" y="66" text-anchor="middle" font-size="7.5" fill="#666">15</text>
+<text x="540" y="66" text-anchor="middle" font-size="7.5" fill="#666">15</text>
+<text x="660" y="66" text-anchor="middle" font-size="7.5" fill="#666">15</text>
+<line x1="148" y1="68"  x2="148" y2="476" stroke="#555" stroke-width="1"/>
+<line x1="145" y1="68"  x2="151" y2="68"  stroke="#555" stroke-width="1"/>
+<line x1="145" y1="476" x2="151" y2="476" stroke="#555" stroke-width="1"/>
+<text x="133" y="278" text-anchor="middle" font-size="11" fill="#333" font-style="italic" transform="rotate(-90,133,278)">50 m</text>
+<text x="730" y="152" font-size="8" fill="#666">20</text>
+<text x="730" y="272" font-size="8" fill="#666">10</text>
+<text x="730" y="392" font-size="8" fill="#666">20</text>
+
+<!-- LEGENDA -->
+<rect x="30" y="495" width="900" height="265" fill="#f4f4f4" stroke="#ccc" stroke-width="1.2" rx="6"/>
+<text x="52" y="516" font-size="12" font-weight="bold" fill="#111">Legenda</text>
+
+<rect x="52" y="525" width="16" height="16" fill="#1565C0" rx="2"/>
+<text x="76" y="537" font-size="10.5" fill="#333">Faceplate Cat6A (grupo de 6 pontos/sala: micro + audiovisual + AP + tel IP + cam + reserva)</text>
+
+<circle cx="60" cy="558" r="11" fill="#2E7D32"/>
+<path d="M54,556 Q60,550 66,556" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<path d="M50,552 Q60,544 70,552" stroke="white" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<circle cx="60" cy="560" r="2.5" fill="white"/>
+<text x="76" y="562" font-size="10.5" fill="#333">AP Wi-Fi 6 PoE+ (teto, centro da sala)</text>
+
+<polygon points="52,583 64,583 58,575" fill="#607D8B"/>
+<text x="76" y="587" font-size="10.5" fill="#333">C&#xE2;mera IP PoE (VLAN Seguran&#xE7;a F&#xED;sica)</text>
+
+<rect x="52" y="597" width="10" height="10" fill="#FF6F00" rx="1"/>
+<text x="76" y="607" font-size="10.5" fill="#333">Telefone IP PoE</text>
+
+<rect x="52" y="617" width="12" height="8" fill="#8D6E63" rx="1"/>
+<text x="76" y="627" font-size="10.5" fill="#333">Projetor / tela interativa (ponto audiovisual)</text>
+
+<rect x="52" y="637" width="16" height="16" fill="#E65100" rx="2"/>
+<text x="76" y="649" font-size="10.5" fill="#333">Rack / Local T&#xE9;cnico</text>
+
+<line x1="52"  y1="662" x2="96" y2="662" stroke="#cc0000" stroke-width="7" stroke-linecap="square"/>
+<text x="106" y="666" font-size="10.5" fill="#333">Eletrocalha a&#xE7;o galvanizado (corredor)</text>
+
+<line x1="52"  y1="682" x2="96" y2="682" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="106" y="686" font-size="10.5" fill="#333">Canaleta PVC nas paredes (Cat6A U/FTP)</text>
+
+<line x1="52"  y1="702" x2="96" y2="702" stroke="#1565C0" stroke-width="2.5"/>
+<polygon points="92,699 100,702 92,705" fill="#1565C0"/>
+<text x="106" y="706" font-size="10.5" fill="#333">Fibra OM4 &#x2192; 2 uplinks 10 Gb/s (backbone vertical &#x2192; BD Acad2)</text>
+
+<!-- Summary box -->
+<rect x="460" y="510" width="455" height="240" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+<text x="480" y="529" font-size="11" font-weight="bold" fill="#111">Resumo &#x2014; T&#xE9;rreo (Spec PDF &#xA7;5.6.1)</text>
+<text x="480" y="547" font-size="10" fill="#333">Salas de aula: 5 (A1&#x2013;A3 + B1&#x2013;B2)</text>
+<text x="480" y="563" font-size="10" fill="#333">Pontos Cat6A: <tspan font-weight="bold">&#x2248; 36</tspan> (5&#xD7;6 + APs + cam + tel + reserva)</text>
+<text x="480" y="579" font-size="10" fill="#333">Por sala: micro + audiovisual + AP + tel IP + cam + reserva</text>
+<text x="480" y="595" font-size="10" fill="#333">Switch: <tspan font-weight="bold">48p 1/2,5 GbE PoE+</tspan> + 2 uplinks &#xF3;pticos 10 Gb/s</text>
+<text x="480" y="611" font-size="10" fill="#333">Rack: PP Cat6A 48p + DIO OM4 12F + UPS + PDU</text>
+<text x="480" y="627" font-size="10" fill="#333">Eletrocalha: &#x2248; 65 m | Canaleta PVC: &#x2248; 30 m</text>
+<text x="480" y="643" font-size="10" fill="#333">Cabo Cat6A U/FTP: &#x2248; 380 m estimado</text>
+<text x="480" y="659" font-size="10" fill="#333">Uplink: OM4 &#x2192; BD Acad2 &#x2192; DC (100 Gb/s)</text>
+<text x="480" y="675" font-size="10" fill="#333">VLANs: Acad&#xEA;mica &#xB7; Wi-Fi Alunos &#xB7; Seg. F&#xED;sica &#xB7; Gest&#xE3;o</text>
+<text x="480" y="691" font-size="10" fill="#555">Norma: ABNT NBR 14565 &#xB7; TIA-568-C.2 &#xB7; TIA-569</text>
+<text x="480" y="707" font-size="10" fill="#555">Identif.: AC2-TR-[sala]-PT-[nn] (ex: AC2-TR-A1-PT-01)</text>
+
+</svg>

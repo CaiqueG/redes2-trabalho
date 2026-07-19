@@ -1,0 +1,291 @@
+<svg width="960" height="780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="960" height="780" fill="white"/>
+
+<!-- TITULO -->
+<text x="480" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#003087">Acad&#xEA;mico 2 &#x2014; 1&#xBA; Andar: Salas de Professores e Aulas</text>
+<text x="480" y="52" text-anchor="middle" font-size="10" fill="#555">Cat6A U/FTP &#xB7; ABNT NBR 14565 &#xB7; Spec: &#x2248; 44 pontos &#xB7; SW 48p PoE+ + SW 24p 10 GbE (servidores)</text>
+
+<!-- BUILDING OUTLINE -->
+<rect x="160" y="68" width="560" height="408" fill="none" stroke="#111" stroke-width="3.5"/>
+
+<!-- TOP: Banheiro(10m)+P1(10m)+P2(10m)+P3(10m)+P4(10m)+P5(10m)+LT(10m)=70m -->
+<rect x="160" y="68" width="560" height="160" fill="#fafafa"/>
+<rect x="160" y="68" width="80"  height="160" fill="#d4d4d4"/>
+<line x1="240" y1="68"  x2="240" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="320" y1="68"  x2="320" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="400" y1="68"  x2="400" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="480" y1="68"  x2="480" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="560" y1="68"  x2="560" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="640" y1="68"  x2="640" y2="228" stroke="#111" stroke-width="2"/>
+
+<!-- Corridor -->
+<line x1="160" y1="228" x2="720" y2="228" stroke="#111" stroke-width="2"/>
+<line x1="160" y1="308" x2="720" y2="308" stroke="#111" stroke-width="2"/>
+<rect x="160" y="228" width="560" height="80" fill="#e8e8e8"/>
+<text x="196" y="272" font-size="9" fill="#999" font-style="italic">corredor principal</text>
+
+<!-- BOTTOM: wall(10m)+Au1(10m)+Au2(10m)+Au3(10m)+Au4(10m)+Au5(10m)+Elev(10m)=70m -->
+<rect x="160" y="308" width="560" height="160" fill="#fafafa"/>
+<rect x="160" y="308" width="80"  height="160" fill="#c8c8c8"/>
+<line x1="240" y1="308" x2="240" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="320" y1="308" x2="320" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="400" y1="308" x2="400" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="480" y1="308" x2="480" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="560" y1="308" x2="560" y2="468" stroke="#111" stroke-width="2"/>
+<line x1="640" y1="308" x2="640" y2="468" stroke="#111" stroke-width="2"/>
+<rect x="641" y="309" width="78" height="158" fill="#ddd" stroke="#888" stroke-width="1.5" stroke-dasharray="9,5"/>
+
+<!-- Local Tecnico highlight -->
+<rect x="641" y="69" width="78" height="158" fill="#fff3e0"/>
+
+<!-- ROOM LABELS top -->
+<text x="200" y="148" text-anchor="middle" font-size="9" fill="#555">Banheiro</text>
+<text x="280" y="100" text-anchor="middle" font-size="9" font-weight="bold" fill="#1A237E">Prof 1</text>
+<text x="280" y="111" text-anchor="middle" font-size="7" fill="#888">3 wkst+SRV</text>
+<text x="360" y="100" text-anchor="middle" font-size="9" font-weight="bold" fill="#1A237E">Prof 2</text>
+<text x="360" y="111" text-anchor="middle" font-size="7" fill="#888">3 wkst+SRV</text>
+<text x="440" y="100" text-anchor="middle" font-size="9" font-weight="bold" fill="#1A237E">Prof 3</text>
+<text x="440" y="111" text-anchor="middle" font-size="7" fill="#888">3 wkst+SRV</text>
+<text x="520" y="100" text-anchor="middle" font-size="9" font-weight="bold" fill="#1A237E">Prof 4</text>
+<text x="520" y="111" text-anchor="middle" font-size="7" fill="#888">3 wkst+SRV</text>
+<text x="600" y="100" text-anchor="middle" font-size="9" font-weight="bold" fill="#1A237E">Prof 5</text>
+<text x="600" y="111" text-anchor="middle" font-size="7" fill="#888">3 wkst+SRV</text>
+<text x="680" y="138" text-anchor="middle" font-size="9" font-weight="bold" fill="#bf360c">Local</text>
+<text x="680" y="150" text-anchor="middle" font-size="9" font-weight="bold" fill="#bf360c">T&#xE9;cnico</text>
+
+<!-- ROOM LABELS bottom -->
+<text x="280" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#222">Aula 1</text>
+<text x="360" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#222">Aula 2</text>
+<text x="440" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#222">Aula 3</text>
+<text x="520" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#222">Aula 4</text>
+<text x="600" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#222">Aula 5</text>
+<text x="680" y="383" text-anchor="middle" font-size="9" fill="#666">&#xC1;rea do</text>
+<text x="680" y="395" text-anchor="middle" font-size="9" fill="#666">Elevador</text>
+
+<!-- RACK LOCAL TECNICO -->
+<rect x="648" y="78" width="62" height="132" fill="#E65100" stroke="#bf360c" stroke-width="1.5" rx="3"/>
+<text x="679" y="94"  text-anchor="middle" font-size="8" fill="white" font-weight="bold">RACK 24U</text>
+<line x1="648" y1="99" x2="710" y2="99" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="111" text-anchor="middle" font-size="6.5" fill="white">PP Cat6A 48p</text>
+<line x1="648" y1="116" x2="710" y2="116" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="128" text-anchor="middle" font-size="6.5" fill="white">SW 48p PoE+</text>
+<line x1="648" y1="133" x2="710" y2="133" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="145" text-anchor="middle" font-size="6.5" fill="white">SW 24p 10 GbE</text>
+<line x1="648" y1="150" x2="710" y2="150" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="162" text-anchor="middle" font-size="6.5" fill="white">DIO OM4 12F</text>
+<line x1="648" y1="167" x2="710" y2="167" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="179" text-anchor="middle" font-size="6.5" fill="white">No-break UPS</text>
+<line x1="648" y1="184" x2="710" y2="184" stroke="white" stroke-width="0.5" opacity="0.6"/>
+<text x="679" y="196" text-anchor="middle" font-size="6.5" fill="white">PDU + guia cabos</text>
+
+<!-- Fiber uplink -->
+<line x1="710" y1="148" x2="760" y2="148" stroke="#1565C0" stroke-width="2.5"/>
+<polygon points="756,145 764,148 756,151" fill="#1565C0"/>
+<text x="768" y="143" font-size="9"   fill="#1565C0" font-weight="bold">2 &#xD7; 10 Gb/s</text>
+<text x="768" y="154" font-size="8"   fill="#1565C0">OM4 &#x2192; BD Acad2</text>
+<text x="768" y="164" font-size="8"   fill="#1565C0">op&#xE7;&#xE3;o 25 Gb/s SRV</text>
+
+<!-- ELETROCALHA -->
+<line x1="240" y1="268" x2="648" y2="268" stroke="#cc0000" stroke-width="8" stroke-linecap="square"/>
+<line x1="648" y1="178" x2="648" y2="272" stroke="#cc0000" stroke-width="8" stroke-linecap="square"/>
+<text x="420" y="260" text-anchor="middle" font-size="9" fill="#cc0000" font-weight="bold">Eletrocalha a&#xE7;o galvanizado</text>
+
+<!-- DROPS top (prof rooms) -->
+<line x1="272" y1="228" x2="272" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="352" y1="228" x2="352" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="432" y1="228" x2="432" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="512" y1="228" x2="512" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="592" y1="228" x2="592" y2="268" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<!-- DROPS bottom (salas aula) -->
+<line x1="272" y1="268" x2="272" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="352" y1="268" x2="352" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="432" y1="268" x2="432" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="512" y1="268" x2="512" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="592" y1="268" x2="592" y2="308" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+
+<!-- Canaleta inside rooms (left wall) -->
+<line x1="244" y1="80"  x2="244" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="324" y1="80"  x2="324" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="404" y1="80"  x2="404" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="484" y1="80"  x2="484" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="564" y1="80"  x2="564" y2="228" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="244" y1="308" x2="244" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="324" y1="308" x2="324" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="404" y1="308" x2="404" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="484" y1="308" x2="484" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+<line x1="564" y1="308" x2="564" y2="460" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+<!-- PROF ROOM EQUIPMENT (5 rooms): 3 faceplates profs + 1 server mini-rack + 1 AP + impressora -->
+<!-- Prof 1 (x=240..320) -->
+<rect x="244" y="88"  width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="244" y="103" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="244" y="118" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="256" y="97"  font-size="6" fill="#1565C0">wkst</text>
+<rect x="305" y="82"  width="10" height="24" fill="#6A1B9A" rx="1" stroke="#4A148C" stroke-width="0.8"/>
+<text x="310" y="97"  text-anchor="middle" font-size="5" fill="white">SRV</text>
+<rect x="244" y="134" width="10" height="8"  fill="#FF6F00" rx="1"/>
+<text x="250" y="148" text-anchor="middle" font-size="5.5" fill="#FF6F00">TEL</text>
+<rect x="257" y="134" width="10" height="8"  fill="#795548" rx="1"/>
+<text x="263" y="148" text-anchor="middle" font-size="5.5" fill="#795548">IMP</text>
+<circle cx="272" cy="185" r="9" fill="#2E7D32"/>
+<path d="M267,183 Q272,178 277,183" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M264,180 Q272,173 280,180" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="272" cy="187" r="2" fill="white"/>
+
+<!-- Prof 2 (x=320..400) -->
+<rect x="324" y="88"  width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="324" y="103" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="324" y="118" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="385" y="82"  width="10" height="24" fill="#6A1B9A" rx="1" stroke="#4A148C" stroke-width="0.8"/>
+<text x="390" y="97"  text-anchor="middle" font-size="5" fill="white">SRV</text>
+<rect x="324" y="134" width="10" height="8" fill="#FF6F00" rx="1"/>
+<rect x="337" y="134" width="10" height="8" fill="#795548" rx="1"/>
+<circle cx="352" cy="185" r="9" fill="#2E7D32"/>
+<path d="M347,183 Q352,178 357,183" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M344,180 Q352,173 360,180" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="352" cy="187" r="2" fill="white"/>
+
+<!-- Prof 3 (x=400..480) -->
+<rect x="404" y="88"  width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="404" y="103" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="404" y="118" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="465" y="82"  width="10" height="24" fill="#6A1B9A" rx="1" stroke="#4A148C" stroke-width="0.8"/>
+<text x="470" y="97"  text-anchor="middle" font-size="5" fill="white">SRV</text>
+<rect x="404" y="134" width="10" height="8" fill="#FF6F00" rx="1"/>
+<rect x="417" y="134" width="10" height="8" fill="#795548" rx="1"/>
+<circle cx="432" cy="185" r="9" fill="#2E7D32"/>
+<path d="M427,183 Q432,178 437,183" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M424,180 Q432,173 440,180" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="432" cy="187" r="2" fill="white"/>
+
+<!-- Prof 4 (x=480..560) -->
+<rect x="484" y="88"  width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="484" y="103" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="484" y="118" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="545" y="82"  width="10" height="24" fill="#6A1B9A" rx="1" stroke="#4A148C" stroke-width="0.8"/>
+<text x="550" y="97"  text-anchor="middle" font-size="5" fill="white">SRV</text>
+<rect x="484" y="134" width="10" height="8" fill="#FF6F00" rx="1"/>
+<rect x="497" y="134" width="10" height="8" fill="#795548" rx="1"/>
+<circle cx="512" cy="185" r="9" fill="#2E7D32"/>
+<path d="M507,183 Q512,178 517,183" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M504,180 Q512,173 520,180" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="512" cy="187" r="2" fill="white"/>
+
+<!-- Prof 5 (x=560..640) -->
+<rect x="564" y="88"  width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="564" y="103" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="564" y="118" width="10" height="10" fill="#1565C0" rx="1"/>
+<rect x="625" y="82"  width="10" height="24" fill="#6A1B9A" rx="1" stroke="#4A148C" stroke-width="0.8"/>
+<text x="630" y="97"  text-anchor="middle" font-size="5" fill="white">SRV</text>
+<rect x="564" y="134" width="10" height="8" fill="#FF6F00" rx="1"/>
+<rect x="577" y="134" width="10" height="8" fill="#795548" rx="1"/>
+<circle cx="592" cy="185" r="9" fill="#2E7D32"/>
+<path d="M587,183 Q592,178 597,183" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M584,180 Q592,173 600,180" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="592" cy="187" r="2" fill="white"/>
+
+<!-- SALAS DE AULA bottom: faceplate + AP + camera + phone + projector -->
+<!-- Aula 1 -->
+<rect x="244" y="450" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="257" y="459" font-size="6" fill="#1565C0">4p</text>
+<circle cx="272" cy="380" r="9" fill="#2E7D32"/>
+<path d="M267,378 Q272,373 277,378" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M264,375 Q272,368 280,375" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="272" cy="382" r="2" fill="white"/>
+<!-- Aula 2 -->
+<rect x="324" y="450" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="337" y="459" font-size="6" fill="#1565C0">4p</text>
+<circle cx="352" cy="380" r="9" fill="#2E7D32"/>
+<path d="M347,378 Q352,373 357,378" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M344,375 Q352,368 360,375" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="352" cy="382" r="2" fill="white"/>
+<!-- Aula 3 -->
+<rect x="404" y="450" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="417" y="459" font-size="6" fill="#1565C0">4p</text>
+<circle cx="432" cy="380" r="9" fill="#2E7D32"/>
+<path d="M427,378 Q432,373 437,378" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M424,375 Q432,368 440,375" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="432" cy="382" r="2" fill="white"/>
+<!-- Aula 4 -->
+<rect x="484" y="450" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="497" y="459" font-size="6" fill="#1565C0">4p</text>
+<circle cx="512" cy="380" r="9" fill="#2E7D32"/>
+<path d="M507,378 Q512,373 517,378" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M504,375 Q512,368 520,375" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="512" cy="382" r="2" fill="white"/>
+<!-- Aula 5 -->
+<rect x="564" y="450" width="10" height="10" fill="#1565C0" rx="1"/>
+<text x="577" y="459" font-size="6" fill="#1565C0">4p</text>
+<circle cx="592" cy="380" r="9" fill="#2E7D32"/>
+<path d="M587,378 Q592,373 597,378" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M584,375 Q592,368 600,375" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="592" cy="382" r="2" fill="white"/>
+
+<!-- DIMENSIONS -->
+<line x1="160" y1="58" x2="720" y2="58" stroke="#555" stroke-width="1"/>
+<line x1="160" y1="55" x2="160" y2="61" stroke="#555" stroke-width="1"/>
+<line x1="720" y1="55" x2="720" y2="61" stroke="#555" stroke-width="1"/>
+<text x="440" y="56" text-anchor="middle" font-size="11" fill="#333" font-style="italic">70 m</text>
+<text x="200" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="280" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="360" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="440" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="520" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="600" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<text x="680" y="66" text-anchor="middle" font-size="7" fill="#666">10</text>
+<line x1="148" y1="68"  x2="148" y2="476" stroke="#555" stroke-width="1"/>
+<text x="133" y="278" text-anchor="middle" font-size="11" fill="#333" font-style="italic" transform="rotate(-90,133,278)">50 m</text>
+<text x="730" y="152" font-size="8" fill="#666">20</text>
+<text x="730" y="272" font-size="8" fill="#666">10</text>
+<text x="730" y="392" font-size="8" fill="#666">20</text>
+
+<!-- LEGENDA -->
+<rect x="30" y="495" width="900" height="265" fill="#f4f4f4" stroke="#ccc" stroke-width="1.2" rx="6"/>
+<text x="52" y="516" font-size="12" font-weight="bold" fill="#111">Legenda</text>
+
+<rect x="52" y="526" width="12" height="12" fill="#1565C0" rx="1.5"/>
+<text x="70" y="537" font-size="10" fill="#333">Faceplate Cat6A 2p (wkst prof / aula)</text>
+
+<rect x="52" y="546" width="10" height="24" fill="#6A1B9A" rx="1"/>
+<text x="70" y="562" font-size="10" fill="#333">Servidor local (mini-rack por sala de prof)</text>
+
+<rect x="52" y="576" width="10" height="8" fill="#FF6F00" rx="1"/>
+<text x="70" y="584" font-size="10" fill="#333">Telefone IP PoE</text>
+
+<rect x="52" y="594" width="10" height="8" fill="#795548" rx="1"/>
+<text x="70" y="602" font-size="10" fill="#333">Impressora de rede</text>
+
+<circle cx="58" cy="622" r="9" fill="#2E7D32"/>
+<path d="M53,620 Q58,615 63,620" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M50,617 Q58,610 66,617" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<circle cx="58" cy="624" r="2" fill="white"/>
+<text x="72" y="626" font-size="10" fill="#333">AP Wi-Fi 6 PoE+ (teto, 1 por sala)</text>
+
+<line x1="52"  y1="643" x2="96" y2="643" stroke="#cc0000" stroke-width="7" stroke-linecap="square"/>
+<text x="106" y="647" font-size="10" fill="#333">Eletrocalha a&#xE7;o galvanizado</text>
+
+<line x1="52"  y1="661" x2="96" y2="661" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="106" y="665" font-size="10" fill="#333">Canaleta PVC (Cat6A U/FTP)</text>
+
+<line x1="52"  y1="679" x2="96" y2="679" stroke="#1565C0" stroke-width="2.5"/>
+<polygon points="92,676 100,679 92,682" fill="#1565C0"/>
+<text x="106" y="683" font-size="10" fill="#333">Fibra OM4 &#x2192; 2 uplinks 10 Gb/s + op&#xE7;&#xE3;o 25 Gb/s para SRV</text>
+
+<!-- Summary box -->
+<rect x="390" y="510" width="525" height="245" fill="white" stroke="#ddd" stroke-width="1" rx="4"/>
+<text x="410" y="529" font-size="11" font-weight="bold" fill="#111">Resumo &#x2014; 1&#xBA; Andar (Spec PDF &#xA7;5.6.2)</text>
+<text x="410" y="547" font-size="10" fill="#333">Salas de prof.: 5 &#xD7; (3 wkst + SRV + tel + imp + reserva) = 30p</text>
+<text x="410" y="563" font-size="10" fill="#333">Salas de aula: 5 &#xD7; (micro + AV + AP + tel + reserva) = 14p</text>
+<text x="410" y="579" font-size="10" fill="#333">Total: <tspan font-weight="bold">&#x2248; 44 pontos Cat6A</tspan> (spec PDF &#xA7;5.3)</text>
+<text x="410" y="595" font-size="10" fill="#333">SW1: <tspan font-weight="bold">48p PoE+</tspan> (salas de aula + APs + tel + imp)</text>
+<text x="410" y="611" font-size="10" fill="#333">SW2: <tspan font-weight="bold">24p 10 GbE</tspan> (servidores locais das salas de prof)</text>
+<text x="410" y="627" font-size="10" fill="#333">Rack: PP Cat6A 48p + DIO OM4 12F + UPS</text>
+<text x="410" y="643" font-size="10" fill="#333">APs Wi-Fi 6: 10 unidades (5 prof + 5 aula)</text>
+<text x="410" y="659" font-size="10" fill="#333">Eletrocalha: &#x2248; 65 m | Canaleta PVC: &#x2248; 50 m</text>
+<text x="410" y="675" font-size="10" fill="#333">Cabo Cat6A U/FTP: &#x2248; 700 m estimado</text>
+<text x="410" y="691" font-size="10" fill="#333">Uplink: OM4 &#x2192; BD Acad2 (2x10G + op 25G para SRV)</text>
+<text x="410" y="707" font-size="10" fill="#333">VLANs: Professores &#xB7; Acad&#xEA;mica &#xB7; Servidores &#xB7; Gest&#xE3;o</text>
+<text x="410" y="723" font-size="10" fill="#555">Norma: ABNT NBR 14565 &#xB7; TIA-568-C.2 &#xB7; TIA-569</text>
+<text x="410" y="739" font-size="10" fill="#555">Identif.: AC2-1A-[sala]-PT-[nn] (ex: AC2-1A-P1-PT-01)</text>
+
+</svg>

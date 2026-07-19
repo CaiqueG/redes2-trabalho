@@ -1,0 +1,416 @@
+<svg width="1300" height="920" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="1300" height="920" fill="white"/>
+
+<!-- ======================================================= -->
+<!-- TITULO                                                   -->
+<!-- ======================================================= -->
+<text x="640" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#003087">Acad&#xEA;mico 2 &#x2014; 2&#xBA; Andar: Laborat&#xF3;rios de Pesquisa</text>
+<text x="640" y="50" text-anchor="middle" font-size="10" fill="#555">Cat6A U/FTP + OM4 (SRV/backbone) &#xB7; &#x2248; 120 pontos &#xB7; 3 SW 48p 10 GbE no FD &#xB7; Uplink 2&#xD7;40/100 Gb/s OM4 &#x2192; BD &#x2192; DC OS2 2&#xD7;100 Gb/s</text>
+
+<!-- ======================================================= -->
+<!-- PLANTA BAIXA  (10px/m)  60..760 x 68..568              -->
+<!-- 70m wide = 700px | 50m tall = 500px                     -->
+<!-- ======================================================= -->
+
+<!-- Contorno do predio -->
+<rect x="60" y="68" width="700" height="500" fill="none" stroke="#222" stroke-width="3"/>
+
+<!-- SECAO SUPERIOR -->
+
+<!-- Banheiro (10m = 100px) -->
+<rect x="60"  y="68"  width="100" height="200" fill="#d8d8d8" stroke="#777" stroke-width="1.5"/>
+<text x="110" y="168" text-anchor="middle" font-size="10" fill="#555" transform="rotate(-90,110,168)">Banheiro</text>
+
+<!-- Lab HPC (15m = 150px) -->
+<rect x="160" y="68"  width="150" height="200" fill="#E8F5E9" stroke="#aaa" stroke-width="1.2"/>
+<text x="235" y="88"  text-anchor="middle" font-size="11" font-weight="bold" fill="#1B5E20">Lab HPC</text>
+<text x="235" y="103" text-anchor="middle" font-size="8.5" fill="#2E7D32">10 wkst + cluster 8 SRV</text>
+<text x="235" y="116" text-anchor="middle" font-size="8"   fill="#555">NAS 200 TB &#xB7; &#x2248;24 pt Cat6A+OM4</text>
+<!-- Rack HPC (referencia A) -->
+<rect x="281" y="78"  width="22" height="38" fill="#E65100" rx="2" stroke="#bf360c" stroke-width="1"/>
+<text x="292" y="95"  text-anchor="middle" font-size="9" fill="white" font-weight="bold">A</text>
+<text x="292" y="109" text-anchor="middle" font-size="6"  fill="white">RACK</text>
+<!-- AP HPC -->
+<circle cx="215" cy="195" r="14" fill="#2E7D32"/>
+<path d="M207,192 Q215,183 223,192" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M203,187 Q215,176 227,187" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="215" cy="197" r="3.5" fill="white"/>
+<text x="215" y="220" text-anchor="middle" font-size="7.5" fill="#1B5E20">Wi-Fi 6</text>
+<!-- canaleta dashed border -->
+<rect x="168" y="76"  width="134" height="184" fill="none" stroke="#e53935" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+<!-- Lab IA / Visao (15m = 150px) -->
+<rect x="310" y="68"  width="150" height="200" fill="#E3F2FD" stroke="#aaa" stroke-width="1.2"/>
+<text x="385" y="88"  text-anchor="middle" font-size="11" font-weight="bold" fill="#0D47A1">Lab IA / Vis&#xE3;o</text>
+<text x="385" y="103" text-anchor="middle" font-size="8.5" fill="#1565C0">10 wkst + 4 SRV GPU</text>
+<text x="385" y="116" text-anchor="middle" font-size="8"   fill="#555">NAS 150 TB &#xB7; &#x2248;24 pt Cat6A+OM4</text>
+<rect x="431" y="78"  width="22" height="38" fill="#E65100" rx="2" stroke="#bf360c" stroke-width="1"/>
+<text x="442" y="95"  text-anchor="middle" font-size="9" fill="white" font-weight="bold">B</text>
+<text x="442" y="109" text-anchor="middle" font-size="6"  fill="white">RACK</text>
+<circle cx="365" cy="195" r="14" fill="#2E7D32"/>
+<path d="M357,192 Q365,183 373,192" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M353,187 Q365,176 377,187" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="365" cy="197" r="3.5" fill="white"/>
+<text x="365" y="220" text-anchor="middle" font-size="7.5" fill="#0D47A1">Wi-Fi 6</text>
+<rect x="318" y="76"  width="134" height="184" fill="none" stroke="#e53935" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+<!-- Lab Embarcados (15m = 150px) -->
+<rect x="460" y="68"  width="150" height="200" fill="#FFF8E1" stroke="#aaa" stroke-width="1.2"/>
+<text x="535" y="88"  text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">Lab Embarcados</text>
+<text x="535" y="103" text-anchor="middle" font-size="8.5" fill="#E65100">10 wkst + 10 bancadas IoT</text>
+<text x="535" y="116" text-anchor="middle" font-size="8"   fill="#555">2 SRV &#xB7; NAS 80 TB &#xB7; &#x2248;24 pt</text>
+<text x="535" y="129" text-anchor="middle" font-size="8"   fill="#BF360C">SW 10G + SW PoE 1G (IoT)</text>
+<rect x="582" y="78"  width="22" height="38" fill="#E65100" rx="2" stroke="#bf360c" stroke-width="1"/>
+<text x="593" y="95"  text-anchor="middle" font-size="9" fill="white" font-weight="bold">C</text>
+<text x="593" y="109" text-anchor="middle" font-size="6"  fill="white">RACK</text>
+<circle cx="515" cy="195" r="14" fill="#2E7D32"/>
+<path d="M507,192 Q515,183 523,192" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M503,187 Q515,176 527,187" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="515" cy="197" r="3.5" fill="white"/>
+<text x="515" y="220" text-anchor="middle" font-size="7.5" fill="#BF360C">Wi-Fi 6</text>
+<rect x="468" y="76"  width="134" height="184" fill="none" stroke="#e53935" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+<!-- FD / Local Tecnico (15m = 150px) -->
+<rect x="610" y="68"  width="150" height="200" fill="#fff3e0" stroke="#bf360c" stroke-width="2"/>
+<text x="685" y="90"  text-anchor="middle" font-size="11" font-weight="bold" fill="#bf360c">FD &#x2014; Local T&#xE9;cnico</text>
+<!-- FD Rack (referencia D) -->
+<rect x="628" y="100" width="50" height="140" fill="#4A148C" rx="3" stroke="#311B92" stroke-width="1.5"/>
+<text x="653" y="118" text-anchor="middle" font-size="9"   fill="white" font-weight="bold">RACK 42U</text>
+<text x="653" y="130" text-anchor="middle" font-size="8"   fill="white" font-weight="bold">FD &#x2014; D</text>
+<line x1="628" y1="134" x2="678" y2="134" stroke="white" stroke-width="0.6" opacity="0.7"/>
+<text x="653" y="143" text-anchor="middle" font-size="6.5" fill="#ffe0b2">SW1 48p 10G</text>
+<text x="653" y="152" text-anchor="middle" font-size="6.5" fill="#ffe0b2">SW2 48p 10G</text>
+<text x="653" y="161" text-anchor="middle" font-size="6.5" fill="#ffe0b2">SW3 48p 10G</text>
+<line x1="628" y1="165" x2="678" y2="165" stroke="white" stroke-width="0.6" opacity="0.7"/>
+<text x="653" y="174" text-anchor="middle" font-size="6.5" fill="#ffe0b2">2x PP Cat6A 48p</text>
+<text x="653" y="183" text-anchor="middle" font-size="6.5" fill="#ffe0b2">DIO OM4 24F</text>
+<line x1="628" y1="187" x2="678" y2="187" stroke="white" stroke-width="0.6" opacity="0.7"/>
+<text x="653" y="196" text-anchor="middle" font-size="6.5" fill="#ffe0b2">UPS 3000VA</text>
+<text x="653" y="205" text-anchor="middle" font-size="6.5" fill="#ffe0b2">PDU monitorada</text>
+<line x1="628" y1="209" x2="678" y2="209" stroke="white" stroke-width="0.6" opacity="0.7"/>
+<text x="653" y="218" text-anchor="middle" font-size="6.5" fill="#ffe0b2">Guia de cabos</text>
+<text x="653" y="228" text-anchor="middle" font-size="6.5" fill="#ffe0b2">Monitoramento</text>
+
+<!-- Uplink FD -> BD (OM4) -->
+<line x1="678" y1="165" x2="760" y2="165" stroke="#1565C0" stroke-width="3"/>
+<polygon points="756,162 764,165 756,168" fill="#1565C0"/>
+<!-- Uplink BD -> DC (OS2) -->
+<line x1="678" y1="185" x2="760" y2="185" stroke="#E65100" stroke-width="3"/>
+<polygon points="756,182 764,185 756,188" fill="#E65100"/>
+
+<!-- CORREDOR -->
+<rect x="60" y="268" width="700" height="100" fill="#e4e4e4" stroke="none"/>
+<text x="100" y="322" font-size="10" fill="#999" font-style="italic">corredor principal</text>
+<!-- Eletrocalha -->
+<line x1="160" y1="318" x2="628" y2="318" stroke="#cc0000" stroke-width="10" stroke-linecap="square"/>
+<line x1="628" y1="230" x2="628" y2="322" stroke="#cc0000" stroke-width="10" stroke-linecap="square"/>
+<text x="380" y="310" text-anchor="middle" font-size="9" fill="#cc0000" font-weight="bold">Eletrocalha a&#xE7;o galvanizado 150 mm</text>
+
+<!-- drops corredor sup -->
+<line x1="235" y1="268" x2="235" y2="318" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="385" y1="268" x2="385" y2="318" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="535" y1="268" x2="535" y2="318" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<!-- drops corredor inf -->
+<line x1="235" y1="318" x2="235" y2="368" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+<line x1="385" y1="318" x2="385" y2="368" stroke="#e53935" stroke-width="2" stroke-dasharray="5,4"/>
+
+<!-- SECAO INFERIOR -->
+<rect x="60"  y="368" width="100" height="200" fill="#c8c8c8" stroke="#777" stroke-width="1.5"/>
+<text x="110" y="468" text-anchor="middle" font-size="9" fill="#555" transform="rotate(-90,110,468)">Parede</text>
+
+<!-- Lab Ciberseguranca -->
+<rect x="160" y="368" width="150" height="200" fill="#FCE4EC" stroke="#aaa" stroke-width="1.2"/>
+<text x="235" y="388" text-anchor="middle" font-size="11" font-weight="bold" fill="#880E4F">Lab Ciberseg.</text>
+<text x="235" y="403" text-anchor="middle" font-size="8.5" fill="#AD1457">8 wkst + 3 SRV an&#xE1;lise</text>
+<text x="235" y="416" text-anchor="middle" font-size="8"   fill="#555">VLAN isolada &#xB7; sandbox &#xB7; &#x2248;24 pt</text>
+<text x="235" y="429" text-anchor="middle" font-size="8"   fill="#880E4F">TAP/SPAN passivo &#xB7; IDS/NDR</text>
+<rect x="281" y="378" width="22" height="38" fill="#880E4F" rx="2" stroke="#AD1457" stroke-width="1"/>
+<text x="292" y="395" text-anchor="middle" font-size="9" fill="white" font-weight="bold">E</text>
+<text x="292" y="409" text-anchor="middle" font-size="6"  fill="white">RACK</text>
+<circle cx="215" cy="500" r="14" fill="#880E4F"/>
+<path d="M207,497 Q215,488 223,497" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M203,492 Q215,481 227,492" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="215" cy="502" r="3.5" fill="white"/>
+<text x="215" y="525" text-anchor="middle" font-size="7.5" fill="#880E4F">Wi-Fi 6</text>
+<rect x="168" y="376" width="134" height="184" fill="none" stroke="#AD1457" stroke-width="1.2" stroke-dasharray="5,4"/>
+<!-- TAP line: Cyber <- all labs (SPAN) -->
+<line x1="292" y1="397" x2="628" y2="250" stroke="#880E4F" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+<!-- Lab Modelagem Climatica -->
+<rect x="310" y="368" width="150" height="200" fill="#EDE7F6" stroke="#aaa" stroke-width="1.2"/>
+<text x="385" y="388" text-anchor="middle" font-size="11" font-weight="bold" fill="#4A148C">Lab Clima</text>
+<text x="385" y="403" text-anchor="middle" font-size="8.5" fill="#6A1B9A">10 wkst + 4 SRV GPU</text>
+<text x="385" y="416" text-anchor="middle" font-size="8"   fill="#555">NAS 200 TB &#xB7; &#x2248;24 pt</text>
+<text x="385" y="429" text-anchor="middle" font-size="8"   fill="#4A148C" font-weight="bold">Uplink 40 GbE QSFP+ ded.</text>
+<rect x="431" y="378" width="22" height="38" fill="#4A148C" rx="2" stroke="#7B1FA2" stroke-width="1"/>
+<text x="442" y="395" text-anchor="middle" font-size="9" fill="white" font-weight="bold">F</text>
+<text x="442" y="409" text-anchor="middle" font-size="6"  fill="white">RACK</text>
+<circle cx="365" cy="500" r="14" fill="#6A1B9A"/>
+<path d="M357,497 Q365,488 373,497" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M353,492 Q365,481 377,492" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="365" cy="502" r="3.5" fill="white"/>
+<text x="365" y="525" text-anchor="middle" font-size="7.5" fill="#4A148C">Wi-Fi 6</text>
+<rect x="318" y="376" width="134" height="184" fill="none" stroke="#e53935" stroke-width="1.2" stroke-dasharray="5,4"/>
+<!-- Clima 40G QSFP+ uplink (destaque) -->
+<line x1="442" y1="397" x2="628" y2="250" stroke="#4A148C" stroke-width="2.5" stroke-dasharray="8,4" opacity="0.85"/>
+
+<!-- Sala Apoio / NAS -->
+<rect x="460" y="368" width="150" height="200" fill="#F5F5F5" stroke="#aaa" stroke-width="1.2"/>
+<text x="535" y="392" text-anchor="middle" font-size="10" fill="#555" font-weight="bold">Sala Apoio</text>
+<text x="535" y="407" text-anchor="middle" font-size="8.5" fill="#666">Servidores + NAS</text>
+<text x="535" y="422" text-anchor="middle" font-size="8"   fill="#888">HPC 200TB &#xB7; IA 150TB</text>
+<text x="535" y="436" text-anchor="middle" font-size="8"   fill="#888">Clima 200TB &#xB7; Emb 80TB</text>
+<text x="535" y="450" text-anchor="middle" font-size="8"   fill="#888">Cyber: storage forense</text>
+<text x="535" y="466" text-anchor="middle" font-size="8"   fill="#666">Acesso via Cat6A 10G / OM4</text>
+<!-- NAS icons -->
+<rect x="490" y="478" width="28" height="44" fill="#455A64" rx="3"/>
+<text x="504" y="495" text-anchor="middle" font-size="7" fill="white">NAS</text>
+<text x="504" y="506" text-anchor="middle" font-size="6" fill="white">SRV</text>
+<text x="504" y="516" text-anchor="middle" font-size="6" fill="white">200TB</text>
+<rect x="524" y="478" width="28" height="44" fill="#455A64" rx="3"/>
+<text x="538" y="495" text-anchor="middle" font-size="7" fill="white">NAS</text>
+<text x="538" y="506" text-anchor="middle" font-size="6" fill="white">SRV</text>
+<text x="538" y="516" text-anchor="middle" font-size="6" fill="white">150TB</text>
+<rect x="558" y="478" width="28" height="44" fill="#37474F" rx="3"/>
+<text x="572" y="495" text-anchor="middle" font-size="7" fill="white">UPS</text>
+<text x="572" y="506" text-anchor="middle" font-size="6" fill="white">PDU</text>
+
+<!-- Elevador -->
+<rect x="610" y="368" width="150" height="200" fill="#ddd" stroke="#888" stroke-width="1.5" stroke-dasharray="10,5"/>
+<text x="685" y="465" text-anchor="middle" font-size="10" fill="#777">&#xC1;rea do</text>
+<text x="685" y="479" text-anchor="middle" font-size="10" fill="#777">Elevador</text>
+
+<!-- Fiber lines: labs -> FD (via eletrocalha) -->
+<!-- HPC -> FD -->
+<line x1="292" y1="100" x2="628" y2="140" stroke="#1565C0" stroke-width="1.8" stroke-dasharray="6,4" opacity="0.65"/>
+<!-- IA -> FD -->
+<line x1="442" y1="100" x2="628" y2="150" stroke="#1565C0" stroke-width="1.8" stroke-dasharray="6,4" opacity="0.65"/>
+<!-- Emb -> FD -->
+<line x1="593" y1="100" x2="628" y2="130" stroke="#1565C0" stroke-width="1.8" stroke-dasharray="6,4" opacity="0.65"/>
+<!-- Cyber -> FD (via eletrocalha) -->
+<line x1="292" y1="397" x2="235" y2="318" stroke="#AD1457" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+<line x1="235" y1="318" x2="628" y2="318" stroke="#AD1457" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.45"/>
+<line x1="628" y1="230" x2="628" y2="318" stroke="#AD1457" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.45"/>
+
+<!-- COTAS -->
+<line x1="60"  y1="58" x2="760" y2="58" stroke="#555" stroke-width="1"/>
+<line x1="60"  y1="55" x2="60"  y2="61" stroke="#555" stroke-width="1"/>
+<line x1="760" y1="55" x2="760" y2="61" stroke="#555" stroke-width="1"/>
+<text x="410" y="56" text-anchor="middle" font-size="11" fill="#333" font-style="italic">70 m</text>
+<text x="110" y="64" text-anchor="middle" font-size="8" fill="#888">10</text>
+<text x="235" y="64" text-anchor="middle" font-size="8" fill="#888">15</text>
+<text x="385" y="64" text-anchor="middle" font-size="8" fill="#888">15</text>
+<text x="535" y="64" text-anchor="middle" font-size="8" fill="#888">15</text>
+<text x="685" y="64" text-anchor="middle" font-size="8" fill="#888">15</text>
+<line x1="48" y1="68"  x2="48" y2="568" stroke="#555" stroke-width="1"/>
+<line x1="45" y1="68"  x2="51" y2="68"  stroke="#555" stroke-width="1"/>
+<line x1="45" y1="568" x2="51" y2="568" stroke="#555" stroke-width="1"/>
+<text x="28" y="318" text-anchor="middle" font-size="11" fill="#333" font-style="italic" transform="rotate(-90,28,318)">50 m</text>
+<text x="772" y="168" font-size="8" fill="#888">20</text>
+<text x="772" y="318" font-size="8" fill="#888">10</text>
+<text x="772" y="468" font-size="8" fill="#888">20</text>
+
+<!-- ======================================================= -->
+<!-- UPLINK ANNOTATIONS (right of building)                  -->
+<!-- ======================================================= -->
+<text x="770" y="155" font-size="9"  fill="#1565C0" font-weight="bold">2&#xD7;40 Gb/s ou 2&#xD7;100 Gb/s</text>
+<text x="770" y="167" font-size="8.5" fill="#1565C0">OM4 &#x2192; BD Acad2</text>
+<text x="770" y="178" font-size="8.5" fill="#1565C0">(LACP / redundante)</text>
+<text x="770" y="196" font-size="9"  fill="#E65100" font-weight="bold">OS2 2&#xD7;100 Gb/s</text>
+<text x="770" y="208" font-size="8.5" fill="#E65100">BD Acad2 &#x2192; Data Center</text>
+<text x="770" y="219" font-size="8.5" fill="#E65100">min 24F, redundante</text>
+
+<!-- ======================================================= -->
+<!-- TABELA DE RACKS (x=800..1280, y=68..510)               -->
+<!-- ======================================================= -->
+<rect x="800" y="68" width="480" height="510" fill="white" stroke="#bbb" stroke-width="1.2" rx="6"/>
+<rect x="800" y="68" width="480" height="28"  fill="#1A237E" rx="6"/>
+<rect x="800" y="82"  width="480" height="14" fill="#1A237E"/>
+<text x="1040" y="87" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Quadro de Equipamentos por Rack</text>
+
+<!-- Header row -->
+<rect x="800" y="96" width="480" height="22" fill="#E8EAF6"/>
+<text x="820"  y="111" font-size="9" font-weight="bold" fill="#333">Ref</text>
+<text x="844"  y="111" font-size="9" font-weight="bold" fill="#333">Local</text>
+<text x="940"  y="111" font-size="9" font-weight="bold" fill="#333">Equipamentos</text>
+<text x="1200" y="111" font-size="9" font-weight="bold" fill="#333">Uplink</text>
+<line x1="800" y1="118" x2="1280" y2="118" stroke="#bbb" stroke-width="1"/>
+
+<!-- Row A: HPC -->
+<rect x="800" y="118" width="480" height="58" fill="#F1F8E9"/>
+<rect x="806" y="124" width="22" height="38" fill="#E65100" rx="2"/>
+<text x="817" y="138" text-anchor="middle" font-size="9" fill="white" font-weight="bold">A</text>
+<text x="817" y="150" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="846"  y="132" font-size="9"  font-weight="bold" fill="#1B5E20">Lab HPC</text>
+<text x="846"  y="145" font-size="8"  fill="#333">&#xB7; SW 24p 10 GbE (wkst + cluster)</text>
+<text x="846"  y="158" font-size="8"  fill="#333">&#xB7; PP Cat6A 24p &#xB7; DIO OM4 6F &#xB7; UPS</text>
+<text x="846"  y="171" font-size="8"  fill="#555">&#xB7; NAS 200 TB (FC ou Cat6A 10G)</text>
+<text x="1130" y="132" font-size="8"  fill="#1565C0" font-weight="bold">OM4 10 Gb/s</text>
+<text x="1130" y="144" font-size="8"  fill="#1565C0">&#x2192; FD (rack D)</text>
+<line x1="800" y1="176" x2="1280" y2="176" stroke="#ddd" stroke-width="1"/>
+
+<!-- Row B: IA -->
+<rect x="800" y="176" width="480" height="58" fill="white"/>
+<rect x="806" y="182" width="22" height="38" fill="#E65100" rx="2"/>
+<text x="817" y="196" text-anchor="middle" font-size="9" fill="white" font-weight="bold">B</text>
+<text x="817" y="208" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="846"  y="190" font-size="9"  font-weight="bold" fill="#0D47A1">Lab IA / Vis&#xE3;o</text>
+<text x="846"  y="203" font-size="8"  fill="#333">&#xB7; SW 24p 10 GbE (wkst + SRV GPU)</text>
+<text x="846"  y="216" font-size="8"  fill="#333">&#xB7; PP Cat6A 24p &#xB7; DIO OM4 6F &#xB7; UPS</text>
+<text x="846"  y="229" font-size="8"  fill="#555">&#xB7; NAS 150 TB (FC ou Cat6A 10G)</text>
+<text x="1130" y="190" font-size="8"  fill="#1565C0" font-weight="bold">OM4 10 Gb/s</text>
+<text x="1130" y="202" font-size="8"  fill="#1565C0">&#x2192; FD (rack D)</text>
+<line x1="800" y1="234" x2="1280" y2="234" stroke="#ddd" stroke-width="1"/>
+
+<!-- Row C: Embarcados -->
+<rect x="800" y="234" width="480" height="68" fill="#FFF8E1"/>
+<rect x="806" y="240" width="22" height="48" fill="#E65100" rx="2"/>
+<text x="817" y="254" text-anchor="middle" font-size="9" fill="white" font-weight="bold">C</text>
+<text x="817" y="266" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="817" y="278" text-anchor="middle" font-size="6" fill="white">DUAL</text>
+<text x="846"  y="248" font-size="9"  font-weight="bold" fill="#BF360C">Lab Embarcados</text>
+<text x="846"  y="261" font-size="8"  fill="#333">&#xB7; SW 24p 10 GbE &#x2014; workstations e servidores</text>
+<text x="846"  y="274" font-size="8"  fill="#E65100" font-weight="bold">&#xB7; SW PoE 1 GbE &#x2014; gateways IoT e bancadas (VLAN IoT)</text>
+<text x="846"  y="287" font-size="8"  fill="#333">&#xB7; PP Cat6A 24p &#xB7; DIO OM4 6F &#xB7; NAS 80 TB &#xB7; UPS</text>
+<text x="1130" y="248" font-size="8"  fill="#1565C0" font-weight="bold">OM4 10 Gb/s</text>
+<text x="1130" y="260" font-size="8"  fill="#1565C0">&#x2192; FD (rack D)</text>
+<text x="1130" y="276" font-size="7.5" fill="#E65100">PoE 1G para IoT</text>
+<line x1="800" y1="302" x2="1280" y2="302" stroke="#ddd" stroke-width="1"/>
+
+<!-- Row D: FD -->
+<rect x="800" y="302" width="480" height="78" fill="#EDE7F6"/>
+<rect x="806" y="308" width="22" height="60" fill="#4A148C" rx="2"/>
+<text x="817" y="322" text-anchor="middle" font-size="9" fill="white" font-weight="bold">D</text>
+<text x="817" y="334" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="817" y="342" text-anchor="middle" font-size="6" fill="white">42U</text>
+<text x="817" y="350" text-anchor="middle" font-size="6" fill="white">FD</text>
+<text x="846"  y="316" font-size="9"  font-weight="bold" fill="#4A148C">FD &#x2014; Local T&#xE9;cnico (2&#xBA; andar)</text>
+<text x="846"  y="329" font-size="8"  fill="#333">&#xB7; <tspan font-weight="bold">3&#xD7; SW 48p 10 GbE/multigigabit</tspan> (SW1 / SW2 / SW3)</text>
+<text x="846"  y="342" font-size="8"  fill="#333">&#xB7; 2&#xD7; PP Cat6A 48p alta densidade &#xB7; DIO OM4 24F</text>
+<text x="846"  y="355" font-size="8"  fill="#333">&#xB7; UPS 3000 VA &#xB7; PDU monitorada &#xB7; Guia de cabos</text>
+<text x="846"  y="368" font-size="8"  fill="#555">&#xB7; Monitoramento SNMP/telemetria &#xB7; Painel frontal</text>
+<text x="1130" y="316" font-size="8"  fill="#1565C0" font-weight="bold">2&#xD7;40G ou 2&#xD7;100G</text>
+<text x="1130" y="328" font-size="8"  fill="#1565C0">OM4 &#x2192; BD Acad2</text>
+<text x="1130" y="344" font-size="8"  fill="#E65100" font-weight="bold">OS2 2&#xD7;100G</text>
+<text x="1130" y="356" font-size="8"  fill="#E65100">BD &#x2192; DC</text>
+<line x1="800" y1="380" x2="1280" y2="380" stroke="#ddd" stroke-width="1"/>
+
+<!-- Row E: Ciberseg -->
+<rect x="800" y="380" width="480" height="68" fill="#FCE4EC"/>
+<rect x="806" y="386" width="22" height="48" fill="#880E4F" rx="2"/>
+<text x="817" y="400" text-anchor="middle" font-size="9" fill="white" font-weight="bold">E</text>
+<text x="817" y="412" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="817" y="420" text-anchor="middle" font-size="6" fill="white">24U</text>
+<text x="846"  y="394" font-size="9"  font-weight="bold" fill="#880E4F">Lab Cibersegur&#xE2;n&#xE7;a</text>
+<text x="846"  y="407" font-size="8"  fill="#333">&#xB7; SW 24p 10 GbE (VLAN isolada + sandbox + honeypot)</text>
+<text x="846"  y="420" font-size="8"  fill="#AD1457" font-weight="bold">&#xB7; TAP passivo &#x2014; espelhamento de porta (SPAN) todos os labs</text>
+<text x="846"  y="433" font-size="8"  fill="#333">&#xB7; IDS/NDR ativo &#xB7; PP Cat6A 24p &#xB7; DIO OM4 &#xB7; UPS</text>
+<text x="846"  y="446" font-size="8"  fill="#555">&#xB7; SIEM passivo &#xB7; sem firewall em linha no caminho cr&#xED;tico</text>
+<text x="1130" y="394" font-size="8"  fill="#AD1457" font-weight="bold">OM4 10 Gb/s</text>
+<text x="1130" y="406" font-size="8"  fill="#AD1457">&#x2192; FD (rack D)</text>
+<text x="1130" y="422" font-size="7.5" fill="#555">SPAN passivo</text>
+<text x="1130" y="433" font-size="7.5" fill="#555">sem impacto</text>
+<text x="1130" y="444" font-size="7.5" fill="#555">no tr&#xE1;fego</text>
+<line x1="800" y1="448" x2="1280" y2="448" stroke="#ddd" stroke-width="1"/>
+
+<!-- Row F: Clima -->
+<rect x="800" y="448" width="480" height="68" fill="#EDE7F6"/>
+<rect x="806" y="454" width="22" height="48" fill="#4A148C" rx="2"/>
+<text x="817" y="468" text-anchor="middle" font-size="9" fill="white" font-weight="bold">F</text>
+<text x="817" y="480" text-anchor="middle" font-size="6" fill="white">RACK</text>
+<text x="817" y="488" text-anchor="middle" font-size="6" fill="white">24U</text>
+<text x="846"  y="462" font-size="9"  font-weight="bold" fill="#4A148C">Lab Modelagem Clim&#xE1;tica</text>
+<text x="846"  y="475" font-size="8"  fill="#333">&#xB7; SW 24p 10 GbE (wkst + SRV GPU)</text>
+<text x="846"  y="488" font-size="8"  fill="#4A148C" font-weight="bold">&#xB7; Uplink dedicado: 1 porta 40 GbE QSFP+ &#x2192; FD</text>
+<text x="846"  y="501" font-size="8"  fill="#333">&#xB7; PP Cat6A 24p &#xB7; DIO OM4 12F &#xB7; NAS 200 TB &#xB7; UPS</text>
+<text x="846"  y="514" font-size="8"  fill="#555">&#xB7; Treinamento IA 10&#x2013;25 Gbps &#xB7; latência &lt;10 ms</text>
+<text x="1130" y="462" font-size="8"  fill="#4A148C" font-weight="bold">40 GbE QSFP+</text>
+<text x="1130" y="474" font-size="8"  fill="#4A148C">OM4 &#x2192; FD</text>
+<text x="1130" y="490" font-size="7.5" fill="#555">dedicado</text>
+<line x1="800" y1="516" x2="1280" y2="516" stroke="#ddd" stroke-width="1"/>
+
+<!-- Table column dividers -->
+<line x1="840"  y1="96"  x2="840"  y2="578" stroke="#ccc" stroke-width="1"/>
+<line x1="940"  y1="96"  x2="940"  y2="578" stroke="#ccc" stroke-width="1"/>
+<line x1="1120" y1="96"  x2="1120" y2="578" stroke="#ccc" stroke-width="1"/>
+
+<!-- Header labels inside table -->
+<text x="820"  y="111" font-size="9" font-weight="bold" fill="#555">Ref</text>
+<text x="866"  y="111" font-size="9" font-weight="bold" fill="#555">Local</text>
+<text x="1010" y="111" font-size="9" font-weight="bold" fill="#555">Equipamentos no Rack</text>
+<text x="1195" y="111" font-size="9" font-weight="bold" fill="#555">Uplink</text>
+
+<!-- VLAN note row -->
+<rect x="800" y="516" width="480" height="62" fill="#F9FBE7"/>
+<text x="820"  y="530" font-size="9"  font-weight="bold" fill="#333">VLANs (Spec &#xA7;5.10)</text>
+<text x="820"  y="545" font-size="8.5" fill="#555">Pesquisa (labs) &#xB7; IoT/bancadas (Emb) &#xB7; Sandbox (Cyber) &#xB7; Ger&#xEA;ncia (FD) &#xB7; Wi-Fi alunos &#xB7; Seg. F&#xED;sica</text>
+<text x="820"  y="559" font-size="8.5" fill="#555">Norma: ABNT NBR 14565 &#xB7; TIA-568-C.2 &#xB7; TIA-569 &#xB7; TIA-606 | Identif.: AC2-2A-[LAB]-PT-[nn]</text>
+<text x="820"  y="573" font-size="8.5" fill="#555">Sem firewall em linha no caminho cr&#xED;tico &#xB7; ACLs + IDS/NDR passivo por TAP/SPAN (Lab Cyber)</text>
+
+<!-- ======================================================= -->
+<!-- LEGENDA (bottom)  y=590..900                            -->
+<!-- ======================================================= -->
+<rect x="30" y="590" width="1240" height="310" fill="#F5F5F5" stroke="#ccc" stroke-width="1" rx="5"/>
+<text x="52" y="612" font-size="12" font-weight="bold" fill="#111">Legenda</text>
+
+<!-- Col 1 -->
+<circle cx="62" cy="634" r="12" fill="#2E7D32"/>
+<path d="M55,631 Q62,623 69,631" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M51,627 Q62,616 73,627" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="62" cy="636" r="3" fill="white"/>
+<text x="80" y="638" font-size="10" fill="#333">AP Wi-Fi 6 PoE+ (1 por lab) | Cyber: VLAN isolada</text>
+
+<rect x="52" y="654" width="18" height="28" fill="#E65100" rx="2"/>
+<text x="61" y="671" text-anchor="middle" font-size="8" fill="white" font-weight="bold">A</text>
+<text x="80" y="667" font-size="10" fill="#333">Rack 24U por lab (ref. A&#x2013;C, E&#x2013;F): ver Quadro de Equipamentos</text>
+
+<rect x="52" y="692" width="18" height="28" fill="#4A148C" rx="2"/>
+<text x="61" y="709" text-anchor="middle" font-size="8" fill="white" font-weight="bold">D</text>
+<text x="80" y="705" font-size="10" fill="#333">Rack 42U FD: 3&#xD7; SW 48p 10G &#xB7; 2&#xD7;PP Cat6A &#xB7; DIO OM4 24F &#xB7; UPS 3000VA</text>
+
+<rect x="52" y="730" width="20" height="12" fill="#455A64" rx="2"/>
+<text x="80" y="741" font-size="10" fill="#333">Servidor / NAS por lab (sala de apoio central + rack local)</text>
+
+<!-- Col 2 -->
+<line x1="310" y1="634" x2="360" y2="634" stroke="#cc0000" stroke-width="8" stroke-linecap="square"/>
+<text x="370" y="638" font-size="10" fill="#333">Eletrocalha a&#xE7;o galvanizado 150 mm (corredor)</text>
+
+<line x1="310" y1="658" x2="360" y2="658" stroke="#e53935" stroke-width="1.8" stroke-dasharray="5,4"/>
+<text x="370" y="662" font-size="10" fill="#333">Canaleta PVC perimetral (Cat6A U/FTP) &#x2014; cada lab</text>
+
+<line x1="310" y1="682" x2="360" y2="682" stroke="#1565C0" stroke-width="1.8" stroke-dasharray="6,4"/>
+<polygon points="356,679 364,682 356,685" fill="#1565C0"/>
+<text x="370" y="686" font-size="10" fill="#333">Fibra OM4 10 Gb/s: rack lab &#x2192; FD (enlaces SRV e backbone)</text>
+
+<line x1="310" y1="706" x2="360" y2="706" stroke="#4A148C" stroke-width="2.5" stroke-dasharray="8,4"/>
+<polygon points="356,703 364,706 356,709" fill="#4A148C"/>
+<text x="370" y="710" font-size="10" fill="#333">OM4 40 GbE QSFP+: Lab Clima &#x2192; FD (uplink dedicado)</text>
+
+<line x1="310" y1="730" x2="360" y2="730" stroke="#AD1457" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="370" y="734" font-size="10" fill="#333">TAP/SPAN passivo: Lab Cyber espelha tráfego dos demais labs</text>
+
+<!-- Col 3 -->
+<line x1="700" y1="634" x2="750" y2="634" stroke="#1565C0" stroke-width="3"/>
+<polygon points="746,631 754,634 746,637" fill="#1565C0"/>
+<text x="760" y="638" font-size="10" fill="#333">Uplink OM4: FD &#x2192; BD Acad2 (2&#xD7;40G ou 2&#xD7;100G, LACP)</text>
+
+<line x1="700" y1="658" x2="750" y2="658" stroke="#E65100" stroke-width="3"/>
+<polygon points="746,655 754,658 746,661" fill="#E65100"/>
+<text x="760" y="662" font-size="10" fill="#333">Backbone OS2: BD Acad2 &#x2192; DC (2&#xD7;100 Gb/s, mín 24F)</text>
+
+<rect x="700" y="676" width="14" height="10" fill="#1565C0" rx="1"/>
+<text x="760" y="686" font-size="10" fill="#333">Wkst Cat6A 10G (HPC, IA, Emb)</text>
+<rect x="700" y="694" width="14" height="10" fill="#FF9800" rx="1"/>
+<text x="760" y="704" font-size="10" fill="#333">IoT/bancada PoE 1G (Embarcados &#x2014; SW PoE dedicado)</text>
+<rect x="700" y="712" width="14" height="10" fill="#AD1457" rx="1"/>
+<text x="760" y="722" font-size="10" fill="#333">Wkst VLAN isolada (Ciberseg. &#xB7; sandbox &#xB7; honeypot)</text>
+<rect x="700" y="730" width="14" height="10" fill="#6A1B9A" rx="1"/>
+<text x="760" y="740" font-size="10" fill="#333">Wkst Clima (SW 24p 10G + uplink 40G QSFP+ dedicado)</text>
+
+<!-- NAS summary note -->
+<rect x="30" y="758" width="1240" height="50" fill="#E8EAF6" stroke="#bbb" stroke-width="1" rx="4"/>
+<text x="52" y="775" font-size="10" font-weight="bold" fill="#1A237E">NAS por laborat&#xF3;rio: </text>
+<text x="184" y="775" font-size="10" fill="#333">HPC 200 TB &#xB7; IA/Vis&#xE3;o 150 TB &#xB7; Embarcados 80 TB &#xB7; Modelagem Clim&#xE1;tica 200 TB &#xB7; Ciberseg. storage forense dedicado</text>
+<text x="52" y="793" font-size="10" fill="#555">Acesso: Cat6A 10 GbE (curta distância) ou fibra OM4 dedicada (longa distância / servidor de alta demanda) &#xB7; Spec §5.4 + §5.6.3</text>
+
+</svg>
